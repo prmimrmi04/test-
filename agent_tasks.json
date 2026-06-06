@@ -17,7 +17,7 @@
   {
     "id": "task-002",
     "title": "Create a python script to list all active tasks",
-    "status": "todo",
+    "status": "done",
     "risk": "low",
     "allowed_paths": [
       "scripts/list_active_tasks.py",
@@ -28,6 +28,23 @@
       "scripts/list_active_tasks.py exists and parses agent_tasks.json",
       "The script prints titles of tasks with status 'todo'",
       "Tests are provided in tests/test_list_active_tasks.py",
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-003",
+    "title": "Create a python script to list all completed tasks",
+    "status": "todo",
+    "risk": "low",
+    "allowed_paths": [
+      "scripts/list_completed_tasks.py",
+      "tests/test_list_completed_tasks.py",
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "scripts/list_completed_tasks.py exists and parses agent_tasks.json",
+      "The script prints titles of tasks with status 'done'",
+      "Tests are provided in tests/test_list_completed_tasks.py",
       "agent_tasks.json remains valid JSON"
     ]
   }
