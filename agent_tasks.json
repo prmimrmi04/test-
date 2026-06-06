@@ -597,6 +597,18 @@
   {
     "id": "task-f9e01740",
     "title": "A new low risk dummy task from agent",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-5c5dfe40",
+    "title": "A brand new dummy task for agent",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
