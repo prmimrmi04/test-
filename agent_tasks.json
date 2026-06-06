@@ -2,7 +2,7 @@
   {
     "id": "task-001",
     "title": "Create a basic README for this repository",
-    "status": "todo",
+    "status": "done",
     "risk": "low",
     "allowed_paths": [
       "README.md",
