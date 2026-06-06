@@ -261,6 +261,18 @@
   {
     "id": "task-021",
     "title": "Dummy task 14",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-022",
+    "title": "Dummy task 15",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
