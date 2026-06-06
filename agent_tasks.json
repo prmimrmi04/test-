@@ -837,6 +837,18 @@
   {
     "id": "task-new-1234abcd",
     "title": "A new auto-generated task",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-new-generated-xyz",
+    "title": "Another auto-generated low risk task",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
