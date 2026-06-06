@@ -885,6 +885,18 @@
   {
     "id": "task-new-b30bbaeb",
     "title": "A brand new generated task (fourth gen)",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-new-11076363",
+    "title": "A brand new generated task (fifth gen)",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
