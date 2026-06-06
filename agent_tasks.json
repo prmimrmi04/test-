@@ -1,753 +1,765 @@
 [
-  {
-    "id": "task-001",
-    "title": "Create a basic README for this repository",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "README.md",
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "README.md exists",
-      "README.md explains the repository purpose",
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-002",
-    "title": "Create a python script to list all active tasks",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "scripts/list_active_tasks.py",
-      "tests/test_list_active_tasks.py",
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "scripts/list_active_tasks.py exists and parses agent_tasks.json",
-      "The script prints titles of tasks with status 'todo'",
-      "Tests are provided in tests/test_list_active_tasks.py",
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-003",
-    "title": "Create a python script to list all completed tasks",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "scripts/list_completed_tasks.py",
-      "tests/test_list_completed_tasks.py",
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "scripts/list_completed_tasks.py exists and parses agent_tasks.json",
-      "The script prints titles of tasks with status 'done'",
-      "Tests are provided in tests/test_list_completed_tasks.py",
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-004",
-    "title": "Document the list scripts in README.md",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "README.md",
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "README.md includes a description of scripts/list_active_tasks.py and scripts/list_completed_tasks.py",
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-005",
-    "title": "Document scripts/validate_agent_tasks.py in README.md",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "README.md",
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "README.md includes a description of scripts/validate_agent_tasks.py",
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-006",
-    "title": "Refactor list_active_tasks to use a common utility",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-007",
-    "title": "Create new test cases for agent tasks",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "tests/test_new.py",
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON",
-      "tests pass"
-    ]
-  },
-  {
-    "id": "task-008",
-    "title": "Dummy task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-009",
-    "title": "Dummy task 2",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-010",
-    "title": "Dummy task 3",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-011",
-    "title": "Dummy task 4",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-012",
-    "title": "Dummy task 5",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-013",
-    "title": "Dummy task 6",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-014",
-    "title": "Dummy task 7",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-015",
-    "title": "Dummy task 8",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-016",
-    "title": "Dummy task 9",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-017",
-    "title": "Dummy task 10",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-018",
-    "title": "Dummy task 11",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-019",
-    "title": "Dummy task 12",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-020",
-    "title": "Dummy task 13",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-021",
-    "title": "Dummy task 14",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-022",
-    "title": "Dummy task 15",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-5ddcf609",
-    "title": "Dummy task next",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-512828cc",
-    "title": "Dummy task next next",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-bcb9adcb",
-    "title": "Dummy task next next next",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-87634111",
-    "title": "Dummy task next next next next",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-6a03e229",
-    "title": "Dummy task next next next next next",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-9daeed09",
-    "title": "Dummy task new appended",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-52263e53",
-    "title": "Dummy task newer appended",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-18e4e008",
-    "title": "Dummy task newest appended",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-078a1c6f",
-    "title": "Dummy task next next next next next next",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-4dbaeb92",
-    "title": "Dummy task brand new",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-c3d4e5f6",
-    "title": "Dummy task another one",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-dummy-new",
-    "title": "Dummy task brand new addition",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-dummy-newer",
-    "title": "Dummy task newer addition",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-dummy-last",
-    "title": "Dummy task last",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-9f603a74",
-    "title": "A new low risk dummy task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-697142b1",
-    "title": "A brand new low risk dummy task generated",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-0d377de2",
-    "title": "Another low risk task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-eeb1b27c",
-    "title": "A new low risk task for the agent",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-aabf4bb3",
-    "title": "A fresh low risk task for the future",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-24f2381d",
-    "title": "Another future task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-09ad0931",
-    "title": "A fresh new low risk dummy task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-4d5c6a0d",
-    "title": "A new task to fulfill the next step",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-49931ac5",
-    "title": "Another low risk dummy task generated",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-2ea7adeb",
-    "title": "Another generated low risk task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-994b62a2",
-    "title": "A fresh new low risk dummy task generated",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-296aa812",
-    "title": "Another generated low risk task in the pipeline",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-f9e01740",
-    "title": "A new low risk dummy task from agent",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-5c5dfe40",
-    "title": "A brand new dummy task for agent",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-644a491a",
-    "title": "A newer dummy task generated",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-b81be615",
-    "title": "A new brand dummy task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-28d4c6a9",
-    "title": "A new brand dummy task next generation",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-f11a1bba",
-    "title": "A brand new shiny low risk dummy task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-d9013940",
-    "title": "A shiny new low risk dummy task generated",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-ef01ab12",
-    "title": "A neat little addition to the task pile",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-new-001",
-    "title": "Another low risk task added by agent",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-new-f51fb837",
-    "title": "A fresh new task from the agent pipeline",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-new-974b24d0",
-    "title": "A low-risk generated task",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-new-e5ca73db",
-    "title": "A new generated task from agent",
-    "status": "done",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  },
-  {
-    "id": "task-new-56315c0d",
-    "title": "Another task",
-    "status": "todo",
-    "risk": "low",
-    "allowed_paths": [
-      "agent_tasks.json"
-    ],
-    "acceptance_criteria": [
-      "agent_tasks.json remains valid JSON"
-    ]
-  }
+    {
+        "id": "task-001",
+        "title": "Create a basic README for this repository",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "README.md",
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "README.md exists",
+            "README.md explains the repository purpose",
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-002",
+        "title": "Create a python script to list all active tasks",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "scripts/list_active_tasks.py",
+            "tests/test_list_active_tasks.py",
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "scripts/list_active_tasks.py exists and parses agent_tasks.json",
+            "The script prints titles of tasks with status 'todo'",
+            "Tests are provided in tests/test_list_active_tasks.py",
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-003",
+        "title": "Create a python script to list all completed tasks",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "scripts/list_completed_tasks.py",
+            "tests/test_list_completed_tasks.py",
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "scripts/list_completed_tasks.py exists and parses agent_tasks.json",
+            "The script prints titles of tasks with status 'done'",
+            "Tests are provided in tests/test_list_completed_tasks.py",
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-004",
+        "title": "Document the list scripts in README.md",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "README.md",
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "README.md includes a description of scripts/list_active_tasks.py and scripts/list_completed_tasks.py",
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-005",
+        "title": "Document scripts/validate_agent_tasks.py in README.md",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "README.md",
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "README.md includes a description of scripts/validate_agent_tasks.py",
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-006",
+        "title": "Refactor list_active_tasks to use a common utility",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-007",
+        "title": "Create new test cases for agent tasks",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "tests/test_new.py",
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON",
+            "tests pass"
+        ]
+    },
+    {
+        "id": "task-008",
+        "title": "Dummy task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-009",
+        "title": "Dummy task 2",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-010",
+        "title": "Dummy task 3",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-011",
+        "title": "Dummy task 4",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-012",
+        "title": "Dummy task 5",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-013",
+        "title": "Dummy task 6",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-014",
+        "title": "Dummy task 7",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-015",
+        "title": "Dummy task 8",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-016",
+        "title": "Dummy task 9",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-017",
+        "title": "Dummy task 10",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-018",
+        "title": "Dummy task 11",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-019",
+        "title": "Dummy task 12",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-020",
+        "title": "Dummy task 13",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-021",
+        "title": "Dummy task 14",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-022",
+        "title": "Dummy task 15",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-5ddcf609",
+        "title": "Dummy task next",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-512828cc",
+        "title": "Dummy task next next",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-bcb9adcb",
+        "title": "Dummy task next next next",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-87634111",
+        "title": "Dummy task next next next next",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-6a03e229",
+        "title": "Dummy task next next next next next",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-9daeed09",
+        "title": "Dummy task new appended",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-52263e53",
+        "title": "Dummy task newer appended",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-18e4e008",
+        "title": "Dummy task newest appended",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-078a1c6f",
+        "title": "Dummy task next next next next next next",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-4dbaeb92",
+        "title": "Dummy task brand new",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-c3d4e5f6",
+        "title": "Dummy task another one",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-dummy-new",
+        "title": "Dummy task brand new addition",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-dummy-newer",
+        "title": "Dummy task newer addition",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-dummy-last",
+        "title": "Dummy task last",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-9f603a74",
+        "title": "A new low risk dummy task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-697142b1",
+        "title": "A brand new low risk dummy task generated",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-0d377de2",
+        "title": "Another low risk task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-eeb1b27c",
+        "title": "A new low risk task for the agent",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-aabf4bb3",
+        "title": "A fresh low risk task for the future",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-24f2381d",
+        "title": "Another future task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-09ad0931",
+        "title": "A fresh new low risk dummy task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-4d5c6a0d",
+        "title": "A new task to fulfill the next step",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-49931ac5",
+        "title": "Another low risk dummy task generated",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-2ea7adeb",
+        "title": "Another generated low risk task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-994b62a2",
+        "title": "A fresh new low risk dummy task generated",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-296aa812",
+        "title": "Another generated low risk task in the pipeline",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-f9e01740",
+        "title": "A new low risk dummy task from agent",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-5c5dfe40",
+        "title": "A brand new dummy task for agent",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-644a491a",
+        "title": "A newer dummy task generated",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-b81be615",
+        "title": "A new brand dummy task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-28d4c6a9",
+        "title": "A new brand dummy task next generation",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-f11a1bba",
+        "title": "A brand new shiny low risk dummy task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-d9013940",
+        "title": "A shiny new low risk dummy task generated",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-ef01ab12",
+        "title": "A neat little addition to the task pile",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-new-001",
+        "title": "Another low risk task added by agent",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-new-f51fb837",
+        "title": "A fresh new task from the agent pipeline",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-new-974b24d0",
+        "title": "A low-risk generated task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-new-e5ca73db",
+        "title": "A new generated task from agent",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-new-56315c0d",
+        "title": "Another task",
+        "status": "done",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    },
+    {
+        "id": "task-new-123456",
+        "title": "A low risk task",
+        "status": "todo",
+        "risk": "low",
+        "allowed_paths": [
+            "agent_tasks.json"
+        ],
+        "acceptance_criteria": [
+            "agent_tasks.json remains valid JSON"
+        ]
+    }
 ]
