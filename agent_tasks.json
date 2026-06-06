@@ -34,7 +34,7 @@
   {
     "id": "task-003",
     "title": "Create a python script to list all completed tasks",
-    "status": "todo",
+    "status": "done",
     "risk": "low",
     "allowed_paths": [
       "scripts/list_completed_tasks.py",
@@ -45,6 +45,20 @@
       "scripts/list_completed_tasks.py exists and parses agent_tasks.json",
       "The script prints titles of tasks with status 'done'",
       "Tests are provided in tests/test_list_completed_tasks.py",
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-004",
+    "title": "Document the list scripts in README.md",
+    "status": "todo",
+    "risk": "low",
+    "allowed_paths": [
+      "README.md",
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "README.md includes a description of scripts/list_active_tasks.py and scripts/list_completed_tasks.py",
       "agent_tasks.json remains valid JSON"
     ]
   }
