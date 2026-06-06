@@ -1,6 +1,9 @@
 import pytest
 import json
 from pathlib import Path
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from scripts.list_active_tasks import list_active_tasks
 
 def test_list_active_tasks(tmp_path, capsys):
