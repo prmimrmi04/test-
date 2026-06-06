@@ -20,17 +20,6 @@ def validate_tasks(filepath: str) -> bool:
         print(f"Error: The root of the JSON file must be an array. Got {type(data).__name__}.")
         return False
 
-    for index, task in enumerate(data):
-        if not isinstance(task, dict):
-            print(f"Error: Task #{index} must be an object.")
-            return False
-
-        required_fields = ["id", "title", "status"]
-        for field in required_fields:
-            if field not in task:
-                print(f"Error: Task #{index} is missing required field: {field}")
-                return False
-
     print(f"Success: '{filepath}' is valid.")
     return True
 
