@@ -79,13 +79,27 @@
   {
     "id": "task-006",
     "title": "Refactor list_active_tasks to use a common utility",
-    "status": "todo",
+    "status": "done",
     "risk": "low",
     "allowed_paths": [
       "agent_tasks.json"
     ],
     "acceptance_criteria": [
       "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-007",
+    "title": "Create new test cases for agent tasks",
+    "status": "todo",
+    "risk": "low",
+    "allowed_paths": [
+      "tests/test_new.py",
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON",
+      "tests pass"
     ]
   }
 ]
