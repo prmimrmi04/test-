@@ -645,6 +645,18 @@
   {
     "id": "task-28d4c6a9",
     "title": "A new brand dummy task next generation",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-f11a1bba",
+    "title": "A brand new shiny low risk dummy task",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
