@@ -525,6 +525,18 @@
   {
     "id": "task-09ad0931",
     "title": "A fresh new low risk dummy task",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-4d5c6a0d",
+    "title": "A new task to fulfill the next step",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
