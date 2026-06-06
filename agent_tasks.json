@@ -91,7 +91,7 @@
   {
     "id": "task-007",
     "title": "Create new test cases for agent tasks",
-    "status": "todo",
+    "status": "done",
     "risk": "low",
     "allowed_paths": [
       "tests/test_new.py",
@@ -100,6 +100,18 @@
     "acceptance_criteria": [
       "agent_tasks.json remains valid JSON",
       "tests pass"
+    ]
+  },
+  {
+    "id": "task-008",
+    "title": "Dummy task",
+    "status": "todo",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
     ]
   }
 ]
