@@ -573,6 +573,18 @@
   {
     "id": "task-994b62a2",
     "title": "A fresh new low risk dummy task generated",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-296aa812",
+    "title": "Another generated low risk task in the pipeline",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
