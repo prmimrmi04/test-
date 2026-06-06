@@ -945,6 +945,18 @@
   {
     "id": "task-new-627f64de",
     "title": "A fresh new low-risk generated task",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-new-e128dd8c",
+    "title": "A low-risk generated task",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
