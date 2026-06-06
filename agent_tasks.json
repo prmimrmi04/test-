@@ -51,7 +51,7 @@
   {
     "id": "task-004",
     "title": "Document the list scripts in README.md",
-    "status": "todo",
+    "status": "done",
     "risk": "low",
     "allowed_paths": [
       "README.md",
@@ -59,6 +59,20 @@
     ],
     "acceptance_criteria": [
       "README.md includes a description of scripts/list_active_tasks.py and scripts/list_completed_tasks.py",
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-005",
+    "title": "Document scripts/validate_agent_tasks.py in README.md",
+    "status": "todo",
+    "risk": "low",
+    "allowed_paths": [
+      "README.md",
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "README.md includes a description of scripts/validate_agent_tasks.py",
       "agent_tasks.json remains valid JSON"
     ]
   }
