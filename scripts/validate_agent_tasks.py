@@ -1,36 +1,40 @@
 import json
 import sys
-import os
+from pathlib import Path
 
-def validate_tasks(filepath):
-    if not os.path.exists(filepath):
+
+def validate_tasks(filepath: str) -> bool:
+    path = Path(filepath)
+
+    if not path.exists():
         print(f"Error: File '{filepath}' does not exist.")
         return False
 
     try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        print(f"Error: Failed to parse JSON: {error}")
+        return False
 
-        if not isinstance(data, list):
-            print(f"Error: The root of the JSON file must be an array (list). Got {type(data).__name__} instead.")
+    if not isinstance(data, list):
+        print(f"Error: The root of the JSON file must be an array. Got {type(data).__name__}.")
+        return False
+
+    for index, task in enumerate(data):
+        if not isinstance(task, dict):
+            print(f"Error: Task #{index} must be an object.")
             return False
 
-        return True
+        required_fields = ["id", "title", "status"]
+        for field in required_fields:
+            if field not in task:
+                print(f"Error: Task #{index} is missing required field: {field}")
+                return False
 
-    except json.JSONDecodeError as e:
-        print(f"Error: Failed to parse JSON: {e}")
-        return False
-    except Exception as e:
-        print(f"Error: An unexpected error occurred: {e}")
-        return False
+    print(f"Success: '{filepath}' is valid.")
+    return True
+
 
 if __name__ == "__main__":
-    filepath = "agent_tasks.json"
-    if len(sys.argv) > 1:
-        filepath = sys.argv[1]
-
-    if validate_tasks(filepath):
-        print(f"Success: '{filepath}' is a valid JSON array.")
-        sys.exit(0)
-    else:
-        sys.exit(1)
+    target = sys.argv[1] if len(sys.argv) > 1 else "agent_tasks.json"
+    sys.exit(0 if validate_tasks(target) else 1)
