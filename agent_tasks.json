@@ -501,6 +501,18 @@
   {
     "id": "task-aabf4bb3",
     "title": "A fresh low risk task for the future",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-24f2381d",
+    "title": "Another future task",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
