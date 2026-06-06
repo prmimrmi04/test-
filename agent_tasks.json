@@ -369,6 +369,18 @@
   {
     "id": "task-18e4e008",
     "title": "Dummy task newest appended",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-078a1c6f",
+    "title": "Dummy task next next next next next next",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
