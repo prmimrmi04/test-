@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "task-001",
+    "title": "Create a basic README for this repository",
+    "status": "todo",
+    "risk": "low",
+    "allowed_paths": [
+      "README.md",
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "README.md exists",
+      "README.md explains the repository purpose",
+      "agent_tasks.json remains valid JSON"
+    ]
+  }
+]
