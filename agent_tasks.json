@@ -693,6 +693,18 @@
   {
     "id": "task-new-001",
     "title": "Another low risk task added by agent",
+    "status": "done",
+    "risk": "low",
+    "allowed_paths": [
+      "agent_tasks.json"
+    ],
+    "acceptance_criteria": [
+      "agent_tasks.json remains valid JSON"
+    ]
+  },
+  {
+    "id": "task-new-f51fb837",
+    "title": "A fresh new task from the agent pipeline",
     "status": "todo",
     "risk": "low",
     "allowed_paths": [
