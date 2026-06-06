@@ -5,10 +5,12 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,11 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pytest pytest-asyncio
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Validate agent task manifest
         run: python scripts/validate_agent_tasks.py agent_tasks.json
 
-      - name: Run test suite
+      - name: Run tests
         run: pytest
